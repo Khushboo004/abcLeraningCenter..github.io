@@ -1,0 +1,166 @@
+
+.in {
+    display: inline-block;
+    margin:2rem 0 2rem 0;
+    text-align: center;
+    height: 50%;
+    width: 10rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: teal;
+    padding: 1rem 1.5rem ;
+}
+.in a:hover {
+    background-color: rgb(66, 143, 143);
+    color: white;
+}
+.sehedule {
+    height: auto;
+    margin-top: 2rem;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-spacing: 0px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(202, 188, 143);
+}
+
+tr.parent {
+    background-color: rgb(103, 165, 180);
+    
+}
+
+tr:hover {
+    background-color: rgb(155, 172, 207);
+}
+
+tr.parent:hover {
+    background-color: rgb(155, 172, 207);
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.tabs li {
+    display: inline-block;
+    padding: 2rem;
+    cursor: pointer;
+}
+.tab-data {
+    display: none;
+    padding: 1rem;
+    background-color: lightpink ;
+}
+.tabs li.active {
+    background-color: pink;
+} 
+.tab-data.active{
+    display: block;
+
+}
+
+#tabs p {
+    font-size: 1rem;
+}
+#tabs {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
+.ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    background-color: rgb(216, 156, 156);
+}
+.ul li a:hover {
+    color: white;
+    background-color: brown;
+}
+@media screen and (max-width:885px) {
+    table {
+        width: 30%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 9px 1px;
+}
+    
+}
+@media screen and (max-width:755px) {
+    table {
+        width: 20%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 9px 1px;
+    font-size: 13px;
+}
+    
+}
+@media screen and (max-width:616px) {
+    table {
+        width: 15%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 9px 1px;
+    font-size: 11px;
+}
+    
+}
+@media screen and (max-width:520px) {
+    table {
+        width: 10%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 10px;
+}
+    
+}
+@media screen and (max-width:465px) {
+    table {
+        width: 10%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 9px;
+}
+    
+}
+@media screen and (max-width:411px) {
+    table {
+        width: 7%;
+    }
+    th,
+td {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 8px;
+}
+.cont li a{
+    padding: 10px 5px;
+    margin: 5px;
+}
+}

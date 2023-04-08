@@ -1,0 +1,32 @@
+#content {
+    background-color: lavender;
+    padding: 3rem;
+    border-radius: 3rem;
+}
+#header h1 {
+    text-align: center;
+    padding-top:30px;
+    color: transparent;
+    background-image: url(../image/anton.jpg);
+    background-clip: text;
+    object-position: left;
+    font-size: 30px;
+}
+.map {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    
+}
+.site h2{
+    font-size: 2rem;
+}
+.map li  {
+    background-color: brown;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    
+}
+

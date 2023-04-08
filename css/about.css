@@ -1,0 +1,107 @@
+
+.about-achiev {
+    margin-top: 3rem;
+    background-color: white;
+}
+
+.about-achiev-contain {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+}
+
+.about-achiev-right {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achiev-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.ment-cards {
+    background-color: rgb(92, 119, 168);
+    padding: 1rem;
+    border-radius: 4rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.ment-cards:hover {
+    background-color: rgb(172, 183, 204);
+    box-shadow: 0 2rem 2rem rgb(129, 129, 175);
+}
+
+.achiev-icons {
+    background-color: rgb(214, 105, 105);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+
+
+.team {
+    background-color: rgb(57, 130, 155);
+    box-shadow: 0 0 3rem white;
+}
+.team-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+}
+.team-member{
+    background-color: rgb(76, 162, 190);
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+.team-member:hover {
+    background: transparent;
+    border: 1px solid rgb(92, 184, 214);
+}
+
+.team-member-img img {
+    filter: saturate(0.5);
+}
+.team-member-img img:hover {
+    filter: saturate(1);
+}
+.team-member-socials {
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width:1380px) {
+    .about-achiev {
+        margin-top: 2rem;
+    }
+    .about-achiev-contain {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .about-achiev-right {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .team-contain {
+        grid-template-columns: 1fr 1fr ;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .achiev-cards{
+        grid-template-columns: 1fr;
+    }
+    .team-contain {
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: auto;
+    }
+}

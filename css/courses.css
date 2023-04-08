@@ -1,0 +1,13 @@
+#accordion {
+    width: 96%;
+    margin: auto;
+}
+#accordion h3 {
+    background-color: rgb(69, 140, 163);
+    color: white;
+    border-radius: 1rem;
+}
+#accordion div {
+    background-color: rgb(195, 227, 238);
+    border-radius: 1rem;
+}

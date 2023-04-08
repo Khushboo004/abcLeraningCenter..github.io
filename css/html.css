@@ -1,0 +1,42 @@
+.para {
+    font-weight: 700;
+    background-color: rgb(218, 107, 107);
+    padding: 1.5rem;
+    margin: 2rem 0 2rem 0;
+
+}
+.html-contain {
+    margin-top: 2rem;
+display: grid;
+grid-template-columns: 40% 60%;
+gap: 4rem;
+
+}
+.html-left h1 {
+    text-align: center;
+    font-style: italic;
+}
+.html-right {
+    text-align: justify;
+}
+#accordion h3 {
+    background-color: rgb(47, 94, 110);
+    color: white;
+    border-radius: 1rem;
+}
+#accordion div {
+    background-color: rgb(195, 227, 238);
+    border-radius: 1rem;
+}
+@media screen and (max-width:1200px) {
+    .html-left img{
+        width: 50%;
+        margin: auto;
+
+    }
+    
+    .html-contain {
+        grid-template-columns: 1fr;
+        gap:1rem
+    }
+}
